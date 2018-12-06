@@ -31,13 +31,13 @@ value each a where (1 rotate a) = a
 sol1: sum value each a where (1 rotate a) = a
 / SOLUTION for part 1
 sol1
-// -> 1228
+/ -> 1228
 
 // alternative
 \t:1000 sum value each a where (1 rotate a)=a
-// -> 152
+/ -> 152
 \t:1000 sum "J"$/:a where (1 rotate a)=a
-// -> 36
+/ -> 36
 
 /// PART 2
 c: count a
@@ -46,4 +46,9 @@ h rotate a
 sol2: sum value each a where a = div[count a; 2] rotate a
 // SOLUTION part 2
 sol2
-// -> 1238
+/ -> 1238
+
+// alternative
+2 0N # a
+(=) . 2 0N # a 
+2 * sum value each a where (=) . 2 0N # a
