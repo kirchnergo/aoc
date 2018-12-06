@@ -17,7 +17,8 @@ s1
 / -> 44216
 
 /// PART 2
-sum { (%) . (x first where 2 = sum a; x first where 2 = sum each a: 0 = x mod/: x) } each a
+s2: sum { (%) . (x first where 2 = sum a; x first where 2 = sum each a: 0 = x mod/: x) } each a
+s2
 / -> 320
 // alternative
 sum (%) . ' {x first where 0 = (mod) . ' x: raze x ,/: ' x except/: x} each a

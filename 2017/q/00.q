@@ -3,10 +3,10 @@
 /// EXPLANATION
 \cd 
 \cd aoc/2017/q
-inp: read0 `:../input/01.txt
-inp
-type inp
-a: first inp
+i: read0 `:../input/01.txt
+i
+type i
+a: first i
 
 /// PART 1
 / SOLUTION for part 1

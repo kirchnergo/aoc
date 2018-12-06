@@ -9,12 +9,12 @@ sum value each a where a = div[count a; 2] rotate a: first read0 `:../input/01.t
 / change to appropriate dir 
 \cd aoc/2017/q
 / read input
-inp: read0 `:../input/01.txt
+i: read0 `:../input/01.txt
 / show it
-inp
-type inp
+i
+type i
 / take the first entry
-a: first inp
+a: first i
 type a
 
 /// PART 1
@@ -28,9 +28,9 @@ a where (1 rotate a) = a
 / as a list of numbers
 value each a where (1 rotate a) = a
 / theis sum
-sol1: sum value each a where (1 rotate a) = a
+s1: sum value each a where (1 rotate a) = a
 / SOLUTION for part 1
-sol1
+s1
 / -> 1228
 
 // alternative
@@ -43,9 +43,9 @@ sol1
 c: count a
 h: c div 2
 h rotate a
-sol2: sum value each a where a = div[count a; 2] rotate a
+s2: sum value each a where a = div[count a; 2] rotate a
 // SOLUTION part 2
-sol2
+s2
 / -> 1238
 
 // alternative
