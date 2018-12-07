@@ -10,7 +10,7 @@
 | 4   | [Repose Record](problem/04.md)               | x   |     |      |     |     |      |
 | 5   | [Alchemical Reduction](problem/05.md)        | x   |     |      |     |     |      |
 | 6   | [Chronal Coordinates](problem/06.md)         | x   |     |      |     |     |      |
-| 7   | [](problem/07.md)                            |     |     |      |     |     |      |
+| 7   | [The Sum of Its Parts](problem/07.md)        | x   |     |      |     |     |      |
 | 8   | [](problem/08.md)                            |     |     |      |     |     |      |
 | 9   | [](problem/09.md)                            |     |     |      |     |     |      |
 | 10  | [](problem/10.md)                            |     |     |      |     |     |      |
