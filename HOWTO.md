@@ -27,6 +27,7 @@ for i in `seq 1 25`; sed -i '' '/^##/,$!d' ${(l:2::0:)i}.md
 and footer:
 ```zsh
 for i in `seq 1 25`; sed -i '' '/^To play,/,$d' ${(l:2::0:)i}.md
+for i in `seq 1 25`; sed -i '' '/^At this point,/,$d' ${(l:2::0:)i}.md
 ```
 and one of the ending empty lines:
 ```zsh
